@@ -8,7 +8,7 @@ const serverPort = 8080;
 var deviceName = 'Google Home';
 var language = 'ja';
 googlehome.device(deviceName,language);
-googlehome.accent(language); 
+googlehome.accent(language);   // test
 
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
